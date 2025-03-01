@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    font-family: cursive;
+    background-color: rgb(150, 114, 67);
+}
+
+.sect {
+    margin: 0px;
+    padding: 20px;
+    
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.potter{
+    background-image: url(https://media.newyorker.com/photos/5909668e2179605b11ad631a/master/pass/Stein-Hogwarts.jpg);
+}
+
+.hagrid{
+    background-image: url(https://i.pinimg.com/736x/63/4f/d9/634fd9a61cc4bbb547e0a1f8890062b2.jpg);
+} 
+.dumbledore{
+    background-image: url(https://i.gzn.jp/img/2010/03/26/harry_potter_and_the_forbidden_journey/03_DSC4441b.jpg);
+}
+.Ron{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/90/The_Great_Hall%2C_Hogwarts.jpg);
+}
+.hermione {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/004/557/134/large/delphine-jobin-hp-contest.jpg);
+}
+.Dobby{
+    background-image: url(https://www.visitengland.com/sites/default/files/styles/wysiwyg_image/public/vb34169310.jpg)
+}
+
+
+.info {
+    display: inline-block;
+    width: 60%;
+    transition: 1s;
+    background-color: rgba(240, 248, 255, 0.188);
+}
+
+.sect img {
+    box-shadow: 5px 5px 10px 0 black;
+    width: 300px;
+    height: 350px;
+}
+
+.Dobby img{
+    width: 200px;
+}
+
+.hermione img{
+    height: 200px;
+    width: 250px;
+}
+
+.info:hover {
+    font-size: 20px;
+
+    background: -webkit-linear-gradient(royalblue, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.info {
+    font-size: 17px;
+    color: aquamarine;
+}
+
+nav {
+    background-color: yellow; 
+    width: 1000px;
+    position: fixed;
+    left:-900px;
+    transition: 1s;
+}
+
+nav:hover{
+    left: 0px;
+}
+
+nav a {
+    background-color: blue;
+    padding: 10px;
+    margin: 0px 10px;
+    position: relative;
+    top: -15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000px;
+ border: 2px solid black ;
+ }
+
+ nav a::after{
+    display: inline-block;
+    content: "";
+    background-image: url(https://retromagaz.com/uploads/products/82/60/site_flvqcs7gt_13a25ddc.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    transition: 1s;
+ }
+
+ nav a:hover::after{
+    opacity: 1;
+    transform: rotate(600deg);
+ }
+
+ header{
+     background-color: rgb(150, 114, 67)
+ }
